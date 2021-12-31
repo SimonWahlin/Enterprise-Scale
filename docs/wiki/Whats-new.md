@@ -37,6 +37,7 @@ Here's what's changed in Enterprise Scale:
 ### December 2021
 
 #### Docs
+- Updated documentation for setting up [AzOps Via Azure Pipelines](https://github.com/azure/azops/wiki/azure-pipelines) ([Azure/AzOps#514](https://github.com/Azure/AzOps/pull/514))
 
 - CAF ready lots of doc updates relating to Azure Landing Zones/Enterprise Scale
   - Added doc on [Adopting policy driven guardrails](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/dine-guidance)
@@ -56,6 +57,12 @@ Here's what's changed in Enterprise Scale:
 - The following policy definitions for Microsoft Defender for Cloud configurations are not available as built-in in Azure China. The policy set definition will be updated as when these policy definitions are available:
   - defenderForOssDb, defenderForSqlServerVirtualMachines, defenderForAppServices, defenderForAppServices, defenderForStorageAccounts, defenderForKubernetesService, defenderForKeyVaults, defenderForDns, defenderForArm
   - defenderForContainerRegistry - this built-in policy has been deprecated
+  
+### Other
+
+- [Pipelines for Azure DevOps in AzOps-Accelerator](https://github.com/Azure/AzOps-Accelerator/tree/main/.pipelines) now implements caching of the AzOps module and its dependencies ([Azure/AzOps-Accelerator#103](https://github.com/Azure/AzOps-Accelerator/pull/103))
+
+- [Pipelines for Azure DevOps in AzOps-Accelerator](https://github.com/Azure/AzOps-Accelerator/tree/main/.pipelines) now implements templates for reusing steps and variable configuration across pipelines ([Azure/AzOps-Accelerator#102](https://github.com/Azure/AzOps-Accelerator/pull/102))
   
 ### November 2021
 
